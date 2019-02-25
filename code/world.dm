@@ -206,18 +206,14 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>\[INTERNATIONAL\]</b>"; //[station_name()]
 //	s += " ("
 //	s += "<a href=\"https://discord.gg/aBkc6NK\">" //Change this to wherever you want the hub to link to.
 //	s += "[game_version]"
 //	s += "Our Discord Server"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 //	s += "</a>"
 //	s += ")"
-	s += " ("
-	s += "byond 512 ONLY"
-	s += ")"
 
-	s += "<br><br><b>Discord</b>: <a href=\"https://discord.gg/P3EMVBW\">Lebensraum</a>"
+	s += "<br><br><b>Discord</b>: <a href=\"https://discord.gg/5aXdgXv\">LINK</a>"
 
 	if(ticker)
 		if(master_mode)
@@ -239,7 +235,7 @@ var/world_topic_spam_protect_time = world.timeofday
 		s += "<br><b>Respawn</b>: Disabled"
 
 	if (config)
-		s += "<br><b>Restart Vote</b>:"
+		s += "<br><b>Restart Vote</b>: "
 
 	s += config.allow_vote_restart ? "Enabled" : "Disabled"
 
