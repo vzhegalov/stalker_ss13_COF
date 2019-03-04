@@ -678,6 +678,12 @@ var/global/global_lentahtml = ""
 				KPK_mobs += H
 
 				profile = find_record("sid", H.sid, data_core.stalkers)
+
+				if(H.job == "Old Stalker" || H.job == "Duty Soldier" || H.job == "Monolith Soldier" || H.job == "Freedom Soldier")
+					profile.fields["rating"] = 3000
+				else if(H.job == "Duty Lieutenant" || H.job == "Monolith Hegumen" || H.job == "Freedom Lieutenant")
+					profile.fields["rating"] = 5000
+
 				set_owner_info(profile)
 			else //≈сли человек зарегистрирован в сети сталкеров
 				if(sk && sk.fields["pass"] != t)

@@ -77,6 +77,7 @@
 		new /datum/data/turntable_soundtrack ("5nizza",				"Ya Soldat",						'sound/turntable/5nizza_ya_soldat.ogg',						2110),
 		new /datum/data/turntable_soundtrack ("7B",					"Molodie Vetra",					'sound/turntable/semb_molodie_vetra.ogg',					2610),
 		new /datum/data/turntable_soundtrack ("Addaraya",			"Gurza Dreaming",					'sound/turntable/gurza_dreaming.ogg',						2420),
+		new /datum/data/turntable_soundtrack ("Afganistan",			"Pil Glotayu",						'sound/turntable/afganistan_pil_glotayu.ogg',				3290),
 		new /datum/data/turntable_soundtrack ("Agata Kristi",		"Kak Na Voine",						'sound/turntable/agata_kristi_na_voine.ogg',				2470),
 		new /datum/data/turntable_soundtrack ("Aksenov V",			"Murka",							'sound/turntable/murka.ogg',								3220),
 		new /datum/data/turntable_soundtrack ("Alai Oli",			"Krilya",							'sound/turntable/alai_oli_krilya.ogg',						2150),
@@ -105,6 +106,7 @@
 		new /datum/data/turntable_soundtrack ("Gazmanov M",		"Putana",							'sound/turntable/putana.ogg',								2460),
 		new /datum/data/turntable_soundtrack ("Krug M",			"Kolschik",							'sound/turntable/kolshik.ogg',								2850),
 		new /datum/data/turntable_soundtrack ("Kino",				"Gruppa Krovy",						'sound/turntable/kino_gruppa_krovi.ogg',					2030),
+		new /datum/data/turntable_soundtrack ("Kino",				"Pachka Sigarett",					'sound/turntable/kino_pachka_sigaret.ogg',					2780),
 		new /datum/data/turntable_soundtrack ("Kino",				"Zvezda Po Imeni Soltnse",			'sound/turntable/kino_zvezda_po_imeni_solntse.ogg',			2245),
 		new /datum/data/turntable_soundtrack ("Korol I Shut",		"Kukla kolduna",					'sound/turntable/korol_i_shut_kukila_kolduna.ogg',			2040),
 		new /datum/data/turntable_soundtrack ("Korol I Shut",		"Lesnik",							'sound/turntable/korol_i_shut_lesnik.ogg',					1910),
@@ -114,6 +116,7 @@
 		new /datum/data/turntable_soundtrack ("Leprikonsy",			"Hali-Gali, Paratruper",			'sound/turntable/leprikonsy_paratruper.ogg',				2060),
 		new /datum/data/turntable_soundtrack ("Lumen",				"Sid i Nensi",						'sound/turntable/lumen_sid_i_nensi.ogg',					2340),
 		new /datum/data/turntable_soundtrack ("Malchishnik",		"V poslendiy raz",					'sound/turntable/malchishnik_posledniy_raz.ogg',			3350),
+		new /datum/data/turntable_soundtrack ("Mnogotochie",		"Shemit v dushe toska",				'sound/turntable/mnogotochie_shemit.ogg',					2310),
 		new /datum/data/turntable_soundtrack ("Monokini",			"Adrenalin",						'sound/turntable/monokini_adrenalin.ogg',					1970),
 		new /datum/data/turntable_soundtrack ("Monokini",			"Dotyanusya Do Solntsa",			'sound/turntable/monokini_dotyanutsya_do_solntsa.ogg',		1600),
 		new /datum/data/turntable_soundtrack ("Mucuraev",			"O Allah",							'sound/turntable/mucuraev_o_allah.ogg',						3970),
@@ -126,8 +129,8 @@
 		new /datum/data/turntable_soundtrack ("Nautilus Pomilius",	"Ya hochu byt s toboy",				'sound/turntable/nautilus_pompilius_ya_hochu_byt_s_toboy.ogg',2710),
 		new /datum/data/turntable_soundtrack ("Narodnaya Russkaya",	"Kaztosky Kick",					'sound/turntable/tf2_kazotsky_kic.ogg',						670),
 		new /datum/data/turntable_soundtrack ("Noggano",			"Armiya",							'sound/turntable/noggano_armiya.ogg',						3890),
-		new /datum/data/turntable_soundtrack ("Okean Elxi",			"Obime",							'sound/turntable/okean_elzi_obime.ogg',						2260),
-		new /datum/data/turntable_soundtrack ("Oken Elzi",			"Vidpusti",							'sound/turntable/okean_elzi_vidpusti.ogg',					2300),
+		new /datum/data/turntable_soundtrack ("Okean Elzi",			"Obime",							'sound/turntable/okean_elzi_obime.ogg',						2260),
+		new /datum/data/turntable_soundtrack ("Okean Elzi",			"Vidpusti",							'sound/turntable/okean_elzi_vidpusti.ogg',					2300),
 		new /datum/data/turntable_soundtrack ("Phil Collins",		"In The Air Tonight",				'sound/turntable/phil_collins_in_the_air_tonight.ogg',		3300),
 		new /datum/data/turntable_soundtrack ("Propaganda",			"Belim Melom",						'sound/turntable/propaganda_belim_melom.ogg',				1740),
 		new /datum/data/turntable_soundtrack ("Ranetki",			"O tebe",							'sound/turntable/ranetki_o_tebe.ogg',						1650),
@@ -146,8 +149,7 @@
 		new /datum/data/turntable_soundtrack ("XS-project",			"Kolotushki",						'sound/turntable/xsproject_kolotushki.ogg',					1610),
 		new /datum/data/turntable_soundtrack ("Zemfira",			"Hochesh?",							'sound/turntable/zemfira_hochesh.ogg',						1920),
 		new /datum/data/turntable_soundtrack ("Zhuki",				"Batareyka",						'sound/turntable/zhuki_batareyka.ogg',						2240),
-		new /datum/data/turntable_soundtrack ("Zemlyane",			"Zemlya V Illuminatore",			'sound/turntable/zemlyane_zemlya_v_illuminatore.ogg',		2330),
-		new /datum/data/turntable_soundtrack ("Mnogotochie",		"Shemit v dushe toska",				'sound/turntable/mnogotochie_shemit.ogg',					2310)
+		new /datum/data/turntable_soundtrack ("Zemlyane",			"Zemlya V Illuminatore",			'sound/turntable/zemlyane_zemlya_v_illuminatore.ogg',		2330)
 	)
 	anchored = 1
 	density = 1
