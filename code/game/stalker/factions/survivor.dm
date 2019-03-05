@@ -87,8 +87,8 @@ Assistant
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1, /obj/item/ammo_box/magazine/stalker/m545 = 2, /obj/item/weapon/reagent_containers/pill/stalker/aptechka/civilian = 1, /obj/item/stack/spacecash/c5000 = 1, /obj/item/device/flashlight/seclite = 1)
+	suit_store = /obj/item/weapon/gun/projectile/automatic/ak74
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
-	l_pocket = /obj/item/weapon/stalker/bolts
 	r_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva
 
 /datum/outfit/stalkervolk  // For select_equipment
@@ -100,7 +100,7 @@ Assistant
 	belt = /obj/item/weapon/kitchen/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1, /obj/item/ammo_box/magazine/stalker/m545 = 2, /obj/item/weapon/reagent_containers/pill/stalker/aptechka/civilian = 1, /obj/item/stack/spacecash/c5000 = 1)
+	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1, /obj/item/ammo_box/magazine/stalker/m545 = 2, /obj/item/weapon/reagent_containers/pill/stalker/aptechka/civilian = 1, /obj/item/stack/spacecash/c5000 = 1, /obj/item/device/flashlight/seclite = 1)
 	suit_store = /obj/item/weapon/gun/projectile/automatic/ak74
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
 	r_pocket = /obj/item/weapon/reagent_containers/food/snacks/stalker/konserva
