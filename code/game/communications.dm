@@ -101,7 +101,7 @@ Radio:
 1443 - Confession Intercom
 1349 - Miners
 1347 - Cargo techs
-1447 - AI Private
+1345 - AI Private
 
 Devices:
 1451 - tracking implant
@@ -124,35 +124,35 @@ On the map:
 */
 
 var/list/radiochannels = list(
-	"Common" = 1459,
+	"145.9" = 1459,
 	"Science" = 1351,
 	"Command" = 1353,
 	"Medical" = 1355,
 	"Engineering" = 1357,
 	"Security" = 1359,
 	"Centcom" = 1337,
-	"Syndicate" = 1213,
+	"Monolith" = 1213,
 	"Supply" = 1347,
 	"Service" = 1349,
-	"AI Private" = 1447
+	"AI Private" = 1345
 )
 
 var/list/radiochannelsreverse = list(
-	"1459" = "Common",
+	"1459" = "145.9",
 	"1351" = "Science",
 	"1353" = "Command",
 	"1355" = "Medical",
 	"1357" = "Engineering",
 	"1359" = "Security",
 	"1337" = "Centcom",
-	"1213" = "Syndicate",
+	"1213" = "Monolith",
 	"1347" = "Supply",
 	"1349" = "Service",
-	"1447" = "AI Private"
+	"1345" = "AI Private"
 )
 
 //depenging helpers
-var/const/SYND_FREQ = 1213 //nuke op frequency, coloured dark brown in chat window
+var/const/SYND_FREQ = 1213 //nuke op and monolith frequency, coloured dark brown in chat window
 var/const/SUPP_FREQ = 1347 //supply, coloured light brown in chat window
 var/const/SERV_FREQ = 1349 //service, coloured green in chat window
 var/const/SCI_FREQ = 1351 //science, coloured plum in chat window
@@ -161,7 +161,7 @@ var/const/MED_FREQ = 1355 //medical, coloured blue in chat window
 var/const/ENG_FREQ = 1357 //engineering, coloured orange in chat window
 var/const/SEC_FREQ = 1359 //security, coloured red in chat window
 var/const/CENTCOM_FREQ = 1337 //centcom frequency, coloured grey in chat window
-var/const/AIPRIV_FREQ = 1447 //AI private, colored magenta in chat window
+var/const/AIPRIV_FREQ = 1345 //AI private, colored magenta in chat window
 
 #define TRANSMISSION_WIRE	0
 #define TRANSMISSION_RADIO	1

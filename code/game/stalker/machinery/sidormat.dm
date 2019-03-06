@@ -175,7 +175,8 @@ var/list/global_sidormat_list = list(
 
 	"Misc" = list(
 		/////////////////////////////////	Другое	/////////////////////////////////////////////
-		new /datum/data/stalker_equipment/stalker_pda("PDA",					"КПК",													/obj/item/device/stalker_pda,								4000,	ROOKIE),
+		new /datum/data/stalker_equipment/stalker_pda("KPK",					"КПК",													/obj/item/device/stalker_pda,								4000,	ROOKIE),
+		new /datum/data/stalker_equipment("Radio",								"Раци&#x44F;",											/obj/item/device/radio,										2500,	ROOKIE),
 		new /datum/data/stalker_equipment("Repair-kit for suits and helmets",	"Рем. комплект дл&#x44F; бронекостюмов и шлемов",		/obj/item/device/repair_kit/clothing,						10000,	ROOKIE),
 		new /datum/data/stalker_equipment("Repair-kit for guns",				"Рем. комплект дл&#x44F; огнестрельного оружи&#x44F;",	/obj/item/device/repair_kit/gun,							4000,	ROOKIE),
 		new /datum/data/stalker_equipment("Guitar",								"Гитара",												/obj/item/device/instrument/guitar,							3000,	ROOKIE),
