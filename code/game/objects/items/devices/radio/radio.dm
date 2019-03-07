@@ -1,13 +1,15 @@
 /obj/item/device/radio
 	icon = 'icons/obj/radio.dmi'
-	name = "station bounced radio"
+	name = "multiwave bounced radio"
+	desc = "Мультиволнова&#255; раци&#255; дл&#255; общени&#255; между сталкерами."
+	eng_desc = "Multiwave radio for communication between stalkers."
 	suffix = "\[3\]"
 	icon_state = "walkietalkie"
 	item_state = "walkietalkie"
 	var/on = 1 // 0 for off
 	var/last_transmission
-	var/frequency = 1459 //common chat
-	var/traitor_frequency = 0 //tune to frequency to unlock traitor supplies
+	var/frequency = 1459 //Бывший [Common] канал
+	var/traitor_frequency = 0 //Неебу но вроде чёто трейторское
 	var/canhear_range = 3 // the range which mobs can hear this radio from
 	var/obj/item/device/radio/patch_link = null
 	var/datum/wires/radio/wires = null
