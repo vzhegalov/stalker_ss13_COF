@@ -131,7 +131,7 @@ var/list/global_sidormat_list = list(
 		new	/datum/data/stalker_equipment("SSP-99 Ecologist",			"ССП-99 Эколог",					/obj/item/clothing/suit/hooded/sealed/ecolog,				75000,	EXPERT),
 		new	/datum/data/stalker_equipment("SSP-99M Ecologist",			"ССП-99М Эколог",					/obj/item/clothing/suit/hooded/sealed/ecologm,				100000,	EXPERT),
 		new	/datum/data/stalker_equipment("SEVA",						"СЕВА",								/obj/item/clothing/suit/hooded/sealed/seva,					125000,	EXPERT),
-		new	/datum/data/stalker_equipment("Exoskeleton",				"Экзоскелет",						/obj/item/clothing/suit/hooded/sealed/exoskelet,			150000,	EXPERT,		assortment_level = 500)
+		new	/datum/data/stalker_equipment("Exoskeleton",				"Экзоскелет",						/obj/item/clothing/suit/hooded/sealed/exoskelet,			250000,	EXPERT,		assortment_level = 500)
 		),
 
 	"Masks and Helmets" = list(
@@ -176,7 +176,7 @@ var/list/global_sidormat_list = list(
 	"Misc" = list(
 		/////////////////////////////////	Другое	/////////////////////////////////////////////
 		new /datum/data/stalker_equipment/stalker_pda("PDA",					"КПК",													/obj/item/device/stalker_pda,								4000,	ROOKIE),
-		new /datum/data/stalker_equipment("Radio",								"Раци&#x44F;",											/obj/item/device/radio,										15000,	ROOKIE),
+		new /datum/data/stalker_equipment("Radio",								"Раци&#x44F;",											/obj/item/device/radio,										7000,	ROOKIE),
 		new /datum/data/stalker_equipment("Repair-kit for suits and helmets",	"Рем. комплект дл&#x44F; бронекостюмов и шлемов",		/obj/item/device/repair_kit/clothing,						10000,	ROOKIE),
 		new /datum/data/stalker_equipment("Repair-kit for guns",				"Рем. комплект дл&#x44F; огнестрельного оружи&#x44F;",	/obj/item/device/repair_kit/gun,							4000,	ROOKIE),
 		new /datum/data/stalker_equipment("Guitar",								"Гитара",												/obj/item/device/instrument/guitar,							3000,	ROOKIE),
