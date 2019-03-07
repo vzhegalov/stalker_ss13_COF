@@ -32,8 +32,9 @@ Moderator		= +ADMIN
 Admin Candidate	= +@
 Trial Admin		= +@ +SPAWN +REJUV +VAREDIT +BAN
 Badmin			= +@ +POSSESS +BUILDMODE +SERVER +FUN
-Game Admin		= +@ +STEALTH +SOUNDS +DEBUG
+Game Admin		= +@ +STEALTH +SOUNDS +DEBUG +FUN +BUILDMODE
 Game Master		= +EVERYTHING
+Pomog Oplatit Host	= +@ +STEALH +SOUNDS +DEBUG +FUN +BUILDMODE +VAREDIT +POSSESS +SPAWN +ADMIN +SERVER
 
 Host			= +EVERYTHING
 
