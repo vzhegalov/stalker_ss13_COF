@@ -149,7 +149,10 @@
 		new /datum/data/turntable_soundtrack ("XS-project",			"Kolotushki",						'sound/turntable/xsproject_kolotushki.ogg',					1610),
 		new /datum/data/turntable_soundtrack ("Zemfira",			"Hochesh?",							'sound/turntable/zemfira_hochesh.ogg',						1920),
 		new /datum/data/turntable_soundtrack ("Zhuki",				"Batareyka",						'sound/turntable/zhuki_batareyka.ogg',						2240),
-		new /datum/data/turntable_soundtrack ("Zemlyane",			"Zemlya V Illuminatore",			'sound/turntable/zemlyane_zemlya_v_illuminatore.ogg',		2330)
+		new /datum/data/turntable_soundtrack ("Zemlyane",			"Zemlya V Illuminatore",			'sound/turntable/zemlyane_zemlya_v_illuminatore.ogg',		2330),
+		new /datum/data/turntable_soundtrack ("Gopnik MCBlyat",		"Choose Your Power",				'sound/turntable/gopnik_mcblyat_choose_your_power.ogg',		2000),
+		new /datum/data/turntable_soundtrack ("Blonde Redhead", 	"For The Damaged Coda",				'sound/turntable/blonde_redhead.ogg',  						1324),
+
 	)
 	anchored = 1
 	density = 1

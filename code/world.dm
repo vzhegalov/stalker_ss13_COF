@@ -204,100 +204,20 @@ var/world_topic_spam_protect_time = world.timeofday
 	var/s = ""
 
 	if (config && config.server_name)
-		s += "<b>[config.server_name]</b> &#8212; "
-
-//	s += " ("
-//	s += "<a href=\"https://discord.gg/aBkc6NK\">" //Change this to wherever you want the hub to link to.
-//	s += "[game_version]"
-//	s += "Our Discord Server"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
-//	s += "</a>"
-//	s += ")"
-
-	s += "<br><br><b>Discord</b>: <a href=\"https://discord.gg/5aXdgXv\">LINK</a>"
+		s += "<center><a href=\"https://discord.gg/5aXdgXv\"><big><b>[config.server_name]</b></big><br>"
+	s += "<img src=\"https://frosty.space/styles/stalbanhub.png\"></a></center>"
+	s += "Map: <b>[MAP_NAME]</b><br>"
 
 	if(ticker)
 		if(master_mode)
-			s += "<br><b>Mode</b>: [master_mode]"
+			s += "Mode: <b>[master_mode]</b><br>"
 	else
 		s += "<br><b>STARTING</b>"
 
 	if (!enter_allowed)
-		s += "<br>Closed"
+		s += "<br>Closed Party"
 
-	var/resp_rate = round(config.respawn_timer/600)
-	var/time_measure = "minutes"
-	if(resp_rate == 1)
-		time_measure = "minute"
-
-	if(config.respawn)
-		s += "<br><b>Respawn Rate</b>: [resp_rate] [time_measure]"
-	else
-		s += "<br><b>Respawn</b>: Disabled"
-
-	if (config)
-		s += "<br><b>Restart Vote</b>: "
-
-	s += config.allow_vote_restart ? "Enabled" : "Disabled"
-
-	//if (!host && config && config.hostedby)
-	//	s += "<br><b>Hosted by</b>: Lebensraum<br>"
-/*
-	var/n = 0
-	for (var/mob/M in player_list)
-		if (M.client)
-			n++
-*/
-/*
-	if (n > 1)
-		s += "~[n] players"
-	else if (n > 0)
-		s += "~[n] player"
-*/
-/*
-	var/list/features = list()
-
-	if(ticker)
-		if(master_mode)
-			features += master_mode
-	else
-		features += "<b>STARTING</b>"
-
-	if (!enter_allowed)
-		features += "closed"
-
-	features += abandon_allowed ? "respawn" : "no respawn"
-
-	if (config && config.allow_vote_mode)
-		features += "vote"
-
-	if (config && config.allow_ai)
-		features += "AI allowed"
-
-	var/n = 0
-	for (var/mob/M in player_list)
-		if (M.client)
-			n++
-
-	if (n > 1)
-		features += "~[n] players"
-	else if (n > 0)
-		features += "~[n] player"
-
-	/*
-	is there a reason for this? the byond site shows 'hosted by X' when there is a proper host already.
-	if (host)
-		features += "hosted by <b>[host]</b>"
-	*/
-
-	if (!host && config && config.hostedby)
-		features += "hosted by <b>Lebensraum</b>"
-
-	if (features)
-		s += ": [list2text(features, ", ")]"
-*/
-	/* does this help? I do not know */
-	if (src.status != s)
-		src.status = s
+	src.status = s
 
 #define FAILED_DB_CONNECTION_CUTOFF 5
 var/failed_db_connections = 0

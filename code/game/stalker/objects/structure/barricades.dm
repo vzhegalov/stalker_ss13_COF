@@ -59,6 +59,7 @@
 					/obj/item/clothing/suit/hooded/kozhanka/banditka = 1,
 					/obj/item/ammo_box/stalker/b9x18 = 55,
 					/obj/item/ammo_box/stalker/b12x70 = 40,
+					/obj/item/device/radio = 20,
 					/obj/item/weapon/gun/projectile/automatic/pistol/pm = 3)
 
 /obj/structure/stalker/blocks
