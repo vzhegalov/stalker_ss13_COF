@@ -151,8 +151,6 @@
 		new /datum/data/turntable_soundtrack ("Zhuki",				"Batareyka",						'sound/turntable/zhuki_batareyka.ogg',						2240),
 		new /datum/data/turntable_soundtrack ("Zemlyane",			"Zemlya V Illuminatore",			'sound/turntable/zemlyane_zemlya_v_illuminatore.ogg',		2330),
 		new /datum/data/turntable_soundtrack ("Gopnik MCBlyat",		"Choose Your Power",				'sound/turntable/gopnik_mcblyat_choose_your_power.ogg',		2000),
-		new /datum/data/turntable_soundtrack ("Slushai Exzortsist",	"Tolerantnost",						'sound/turntable/slyshay_eczortsist_tolerantnost.ogg',		1488),
-		new /datum/data/turntable_soundtrack ("Slushai Exzortsist", "148.8 FM",							'sound/turntable/slyshay_eczortsist_148.8_fm.ogg',			1234),
 		new /datum/data/turntable_soundtrack ("Blonde Redhead", 	"For The Damaged Coda",				'sound/turntable/blonde_redhead.ogg',  						1324),
 
 	)
