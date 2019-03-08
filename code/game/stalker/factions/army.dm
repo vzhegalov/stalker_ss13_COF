@@ -8,6 +8,7 @@ Assistant
 //	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
+	locked = 1
 	spawn_positions = -1
 	supervisors = "Army Commander"
 	selection_color = "#2E8B57"
