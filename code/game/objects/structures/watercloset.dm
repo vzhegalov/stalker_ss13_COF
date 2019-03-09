@@ -354,7 +354,7 @@
 
 /obj/item/weapon/bikehorn/rubberducky
 	name = "rubber ducky"
-	desc = "Резиновый утёнок. Кря."	//thanks doohl
+	desc = "Резиновый утёнок. Кр&#255;."//thanks doohl
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "rubberducky"
 	item_state = "rubberducky"

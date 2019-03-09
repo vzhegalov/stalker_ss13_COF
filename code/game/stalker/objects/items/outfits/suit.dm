@@ -667,7 +667,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/psz9d
 	name = "PSZ-9D"
-	desc = "Современна&#255; модель боевой брони Долга. Отлично подходит для часто вступающих в перестрелки членов группировки. В отличие от ПС5, имеет многочисленные циркониевые защитные пластины в нагруднике, способные остановить автоматную пулю на излете."
+	desc = "Современна&#255; модель боевой брони Долга. Отлично подходит дл&#255; часто вступающих в перестрелки членов группировки. В отличие от ПС5, имеет многочисленные циркониевые защитные пластины в нагруднике, способные остановить автоматную пулю на излете."
 	eng_desc = "Produced by one of Kiev's defence research institutes and commissioned by the Duty faction. It is as simple and reliable as the standard PSZ-9 model, but due to the new materials, it provides good protection from various harmful impacts, including firearm damage. The vest still needs some work because it has no breathing protection system."
 	icon_state = "psz9d"
 	item_state = "syndicate-black"
@@ -709,7 +709,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/kombez/veter
 	name = "wind of freedom"
-	desc = "Производимый ремесленниками группировки «Свобода» облегченный комбинезон сталкера. Легкий армейский бронежилет плюс накладные усиливающие кевларовые элементы. Способен защитить от слабого стрелкового оружия. Ткань костюма обработана специальным составом, повышающим сопротивление аномальной активности."
+	desc = "Производимый ремесленниками группировки «Свобода» облегченный комбинезон сталкера. Легкий армейский бронежилет плюс накладные усиливающие кевларовые элементы. Способен защитить от слабого стрелкового оружи&#255;. Ткань костюма обработана специальным составом, повышающим сопротивление аномальной активности."
 	eng_desc = "This lightweight stalker bodysuit is made by Freedom craftsmen. The suit's fabric is treated with Horizon, a special solution developed by the faction by trial and error to increase resistance to anomalies. Like the Sunrise suit, the Wind of Freedom comes with built-in body armor and artifact containers."
 	icon_state = "veter"
 	item_state = "syndicate-green"
@@ -732,7 +732,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/strazh
 	name = "guardian of freedom"
-	desc = "Модифицированна&#255; дл&#255; работы в услови&#255;х Зоны, экипировка армейского спецназа. Покрашенна&#255; в &#255;ркий камуфляж Свободы и облегченна&#255; дл&#255; улучшени&#255; подвижности, эта верси&#255; Берилла была обработана специальными реагентами, ослабл&#255;ющими вред от аномальных угроз."
+	desc = "Модифицированна&#255; дл&#255; работы в услови&#255;х Зоны, экипировка армейского спецназа. Покрашенна&#255; в &#255;ркий камуфл&#255;ж Свободы и облегченна&#255; дл&#255; улучшени&#255; подвижности, эта верси&#255; Берилла была обработана специальными реагентами, ослабл&#255;ющими вред от аномальных угроз."
 	eng_desc = "This stalker bodysuit with reinforced body armor made by Freedom craftsmen represents a good compromise between combat and anomaly protection. The built-in body armor comprises armor plating and ten Kevlar layers, capable of stopping a pistol bullet. The suit uses the relatively expensive Sovereign compound for anomaly protection. Comes with an artifact container."
 	icon_state = "strazh"
 	item_state = "syndicate-green"
@@ -750,7 +750,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/assaultmerc
 	name = "mercenary heavy armor"
-	desc = "Тяжела&#255; комбинированна&#255; брон&#255;, включающа&#255; в себя многослойный баллистический жилет с воротником и защитой предплечий, а также по паре неопреново-пластиковых наручей и наголенников для защиты от укусов местной живности. Вы не уверены, что такой костюм хорошо защитит от аномалий, но дл&#255; условий зоны сложно найти боевую броню получше."
+	desc = "Т&#255;жела&#255; комбинированна&#255; брон&#255;, включающа&#255; в себ&#255; многослойный баллистический жилет с воротником и защитой предплечий, а также по паре неопреново-пластиковых наручей и наголенников дл&#255; защиты от укусов местной живности. Вы не уверены, что такой костюм хорошо защитит от аномалий, но дл&#255; условий зоны сложно найти боевую броню получше."
 	icon_state = "assaultmerc"
 	item_state = "syndicate-black"
 	blood_overlay_type = "armor"
@@ -791,7 +791,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/kombez/mercenary/leader
 	name = "mercenary leader armor"
-	desc = "Обычная броня наемника с наброшенным поверх плащом в весьма потрепанном состоянии. Вы задумываетесь, почему никто другой не додумался ранее носить плащ поверх легкой брони... неужели этому что-то мешает?"
+	desc = "Обычна&#255; брон&#255; наемника с наброшенным поверх плащом в весьма потрепанном состо&#255;нии. Вы задумываетесь, почему никто другой не додумалс&#255; ранее носить плащ поверх легкой брони... неужели этому что-то мешает?"
 	icon_state = "mercleader"
 	item_state = "syndicate-black"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS

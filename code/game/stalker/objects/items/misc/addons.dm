@@ -95,5 +95,5 @@
 
 /obj/item/weapon/attachment/grenadelauncher/fnf2000
 	name = "fn-f2000 grenade launcher"
-	desc = "Подствольный гранатомёт для fn-f2000"
+	desc = "Подствольный гранатомёт дл&#255; fn-f2000"
 	icon_state = "fnf2000-gl"

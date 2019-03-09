@@ -45,7 +45,7 @@
 
 /obj/item/device/instrument/violin
 	name = "violin"
-	desc = "Обычна&#255; скрипка издающая неприятный ушам звук. Ничего примечательного."
+	desc = "Обычна&#255; скрипка издающа&#255; непри&#255;тный ушам звук. Ничего примечательного."
 	icon = 'icons/obj/musician.dmi'
 	icon_state = "violin"
 	item_state = "violin"
