@@ -391,26 +391,6 @@
 			if(!in_range(instrumentObj, usr))
 				return
 
-		//split into lines
-		spawn()
-			lines = text2list(t, "\n")
-			if(copytext(lines[1],1,6) == "BPM: ")
-				tempo = sanitize_tempo(600 / text2num(copytext(lines[1],6)))
-				lines.Cut(1,2)
-			else
-				tempo = sanitize_tempo(5) // default 120 BPM
-			if(lines.len > 50)
-				usr << "Too many lines!"
-				lines.Cut(51)
-			var/linenum = 1
-			for(var/l in lines)
-				if(lentext(l) > 50)
-					usr << "Line [linenum] too long!"
-					lines.Remove(l)
-				else
-					linenum++
-			updateDialog(usr)		// make sure updates when complete
-
 	else if(href_list["help"])
 		help = text2num(href_list["help"]) - 1
 
@@ -488,7 +468,7 @@
 
 
 /obj/structure/piano
-	name = "space minimoog"
+	name = "minimoog"
 	icon = 'icons/obj/musician.dmi'
 	icon_state = "minimoog"
 	anchored = 1
@@ -500,12 +480,12 @@
 	song = new("piano", src)
 
 	if(prob(50))
-		name = "space minimoog"
-		desc = "This is a minimoog, like a space piano, but more spacey!"
+		name = "minimoog"
+		desc = "İòî ìèíèàòşğíà&#255; âåğñè&#255; ïèàíèíî, òîëüêî çâó÷èò õóæå."
 		icon_state = "minimoog"
 	else
-		name = "space piano"
-		desc = "This is a space piano, like a regular piano, but always in tune! Even if the musician isn't."
+		name = "piano"
+		desc = "İòî ïèàíèíî, èíñòğóìåíò ìóçûêàëüíîé äóøè."
 		icon_state = "piano"
 
 /obj/structure/piano/Destroy()
