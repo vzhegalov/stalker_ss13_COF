@@ -23,7 +23,7 @@
 	selection_color = "#FFA500"
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station, access_mineral_storeroom)
 	minimal_access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station, access_mineral_storeroom)
-	total_positions = 3
+	total_positions = 2
 	spawn_positions = 1
 	req_admin_notify = 1
 	whitelist_only = 1
@@ -43,7 +43,8 @@
 	shoes = /obj/item/clothing/shoes/sneakers/brown
 	back = /obj/item/weapon/storage/backpack/stalker/tourist
 	backpack_contents = list(/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000)
-
+	l_pocket = /obj/item/stack/spacecash/c5000
+	r_pocket = /obj/item/stack/spacecash/c5000
 
 /datum/outfit/stalker/trader  // For select_equipment
 	name = "Sidorovich"
