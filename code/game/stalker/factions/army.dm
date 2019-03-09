@@ -24,16 +24,6 @@ Assistant
 /datum/outfit/job/army_eliteagro
 	name = "EliteAgro"
 	faction_s = "Army"
-	faction = "Station"
-	total_positions = -1
-	locked = 1
-	spawn_positions = -1
-	supervisors = ""
-	selection_color = "#2E8B57"
-	access = list()			//See /datum/job/assistant/get_access()
-	minimal_access = list()	//See /datum/job/assistant/get_access()
-	whitelist_only = 1
-	real_rank = "Lieutenant"
 /datum/outfit/job/army/eliteagro/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/beret_ua

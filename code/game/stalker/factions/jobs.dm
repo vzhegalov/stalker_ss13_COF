@@ -41,9 +41,9 @@
 	belt = /obj/item/weapon/gun/projectile/automatic/pistol/cora
 	id = /obj/item/device/stalker_pda
 	shoes = /obj/item/clothing/shoes/sneakers/brown
-	back = /obj/item/weapon/storage/backpack/stalker
+	back = /obj/item/weapon/storage/backpack/stalker/tourist
 	backpack_contents = list(/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000)
-	l_pocket = pick = (/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000)
+
 
 /datum/outfit/stalker/trader  // For select_equipment
 	name = "Sidorovich"
@@ -53,9 +53,9 @@
 	belt = /obj/item/weapon/gun/projectile/automatic/pistol/cora
 	id = /obj/item/device/stalker_pda
 	shoes = /obj/item/clothing/shoes/sneakers/brown
-	back = /obj/item/weapon/storage/backpack/stalker
+	back = /obj/item/weapon/storage/backpack/stalker/tourist
 	backpack_contents = list(/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000)
-	l_pocket = pick = (/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000)
+
 
 //donat-equip for atelerd
 /datum/job/stalker/atelerd
