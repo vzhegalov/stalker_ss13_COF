@@ -103,7 +103,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Beretta M38 Magazine",					"Магазин к Беретте М38",		/obj/item/ammo_box/magazine/stalker/berettam38,			1250,	ROOKIE),
 		new /datum/data/stalker_equipment("USP-match Magazine",						"Магазин к ЮСП-Матч",			/obj/item/ammo_box/magazine/stalker/usp45,				2500,	ROOKIE),
 		new /datum/data/stalker_equipment("Desert Eagle Magazine",					"Магазин к Desert Eagle",		/obj/item/ammo_box/magazine/stalker/desert,				2000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("PKM ammo belt box",						"Жестянка с лентой к ПКМ",		/obj/item/ammo_box/magazine/stalker/pkm,				20000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("PKM ammo belt box",						"Жест&#x44F;нка с лентой к ПКМ",		/obj/item/ammo_box/magazine/stalker/pkm,				20000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("7.62x51 Clip",							"Обойма 7.62х51",				/obj/item/ammo_box/stalker/cl762x51,					800,	ROOKIE)
 		),
 
@@ -124,7 +124,7 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("PZ-1	",						"ПЗ-1",								/obj/item/clothing/suit/hooded/kombez/monolith,				25000,	ROOKIE,		faction = "Monolith", sale_price = 8000),
 		new /datum/data/stalker_equipment("Monolith scientific suit	",	"Научный комбинезон монолита",		/obj/item/clothing/suit/hooded/sealed/monolith,				60000,	ROOKIE,		faction = "Monolith"),
 		new /datum/data/stalker_equipment("PS5-M",						"ПС5-М",							/obj/item/clothing/suit/hooded/kombez/ps5m,					25000,	ROOKIE,		faction = "Duty"),
-		new /datum/data/stalker_equipment("Heavy merc armor",			"Тяжелая броня наёмников",			/obj/item/clothing/suit/assaultmerc,						50000,	EXPERIENCED,faction = "Mercenaries"),
+		new /datum/data/stalker_equipment("Heavy merc armor",			"Т&#x44F;жела&#x44F; брон&#x44F; наёмников",			/obj/item/clothing/suit/assaultmerc,						50000,	EXPERIENCED,faction = "Mercenaries"),
 		new /datum/data/stalker_equipment("PSZ-9D",						"ПСЗ-9Д",							/obj/item/clothing/suit/psz9d,								60000,	VETERAN,	faction = "Duty"),
 		new /datum/data/stalker_equipment("SKAT-9M",					"СКАТ-9М",							/obj/item/clothing/suit/skat,								75000,	VETERAN),
 		new	/datum/data/stalker_equipment("PSZ-9Md",					"ПСЗ-9Мд",							/obj/item/clothing/suit/hooded/sealed/psz9md,				75000,	VETERAN,	faction = "Duty"),
@@ -138,7 +138,7 @@ var/list/global_sidormat_list = list(
 		////////////////////////////	Маски, Шлемы	/////////////////////////////////////
 		new /datum/data/stalker_equipment("Gasmask",					"Противогаз",					/obj/item/clothing/mask/gas/stalker,							7500,	ROOKIE),
 		new /datum/data/stalker_equipment("Merc gasmask",				"Противогаз наемников",			/obj/item/clothing/mask/gas/stalker/mercenary,					7500,	ROOKIE),
-		new /datum/data/stalker_equipment("Steel helmet",				"Стальная каска",				/obj/item/clothing/head/steel,									7500,	ROOKIE),
+		new /datum/data/stalker_equipment("Steel helmet",				"Стальна&#x44F; каска",				/obj/item/clothing/head/steel,									7500,	ROOKIE),
 		new /datum/data/stalker_equipment("Light tactical helmet",		"Легкий тактический шлем",		/obj/item/clothing/head/hardhat/tactical/light,					12500,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Tactical helmet",			"Тактический шлем",				/obj/item/clothing/head/tacticalhelmet,							25000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Assault helmet",	    		"Штурмовой шлем",				/obj/item/clothing/head/assaultmerc,							30000,	EXPERIENCED,	faction = "Mercenaries"),
@@ -188,7 +188,8 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Simple lighter",						"Пластикова&#x44F; зажигалка",							/obj/item/weapon/lighter/greyscale,							3000,	ROOKIE),
 		new /datum/data/stalker_equipment("Zippo lighter",						"Зажигалка \"Зиппо\"",									/obj/item/weapon/lighter,									5000,	ROOKIE),
 		new /datum/data/stalker_equipment("Cigarettes \"Maxim\"",				"Сигареты \"Maxim\"",									/obj/item/weapon/storage/fancy/cigarettes/cigpack/maxim,	2500,	ROOKIE),
-		new /datum/data/stalker_equipment("Cigars",								"Сигары",												/obj/item/weapon/storage/fancy/cigarettes/cigars,			10000,	ROOKIE)
+		new /datum/data/stalker_equipment("Cigars",								"Сигары",												/obj/item/weapon/storage/fancy/cigarettes/cigars,			10000,	ROOKIE),
+		new /datum/data/stalker_equipment("Violin",								"Скрипка",												/obj/item/device/instrument/violin,							10000,	ROOKIE, sale_price = 1250),
 		),
 
 	"Clothing" = list(
@@ -242,7 +243,7 @@ var/list/global_sidormat_list = list(
 		/////////////////////////////////	Артефакты	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Медуза",				"Медуза",							/obj/item/weapon/artifact/meduza,					5000,	ROOKIE,	sale_price = 2500),
 		new /datum/data/stalker_equipment("Каменный цветок",	"Каменный цветок",					/obj/item/weapon/artifact/stoneflower,				10000,	ROOKIE,	sale_price = 5000),
-		new /datum/data/stalker_equipment("Ночная звезда",		"Ночная звезда",					/obj/item/weapon/artifact/nightstar,				30000,	ROOKIE,	sale_price = 15000),
+		new /datum/data/stalker_equipment("Ночна&#x44F; звезда",		"Ночна&#x44F; звезда",					/obj/item/weapon/artifact/nightstar,				30000,	ROOKIE,	sale_price = 15000),
 		new /datum/data/stalker_equipment("Душа",				"Душа",								/obj/item/weapon/artifact/soul,						80000,	ROOKIE,	sale_price = 35000),
 		///////////////////////////////////////////////////////////////////////////////////////////
 		new /datum/data/stalker_equipment("Вспышка",			"Вспышка",							/obj/item/weapon/artifact/flash,					6000,	ROOKIE,	sale_price = 3000),

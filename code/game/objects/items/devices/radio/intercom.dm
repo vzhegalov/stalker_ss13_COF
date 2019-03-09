@@ -1,6 +1,7 @@
 /obj/item/device/radio/intercom
-	name = "station intercom"
-	desc = "Talk through this."
+	name = "multiwave intercom"
+	desc = "Мультиволновой интерком работающий на несколько километров."
+	eng_desc = "Multiwave intercom operating over several kilometers."
 	icon_state = "intercom"
 	anchored = 1
 	w_class = 4

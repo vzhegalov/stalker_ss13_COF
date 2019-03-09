@@ -1,6 +1,6 @@
 /obj/structure/toilet
 	name = "toilet"
-	desc = "The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean."
+	desc = "Туалет времён Советов. Похоже, он до сих пор в идеальном состо&#255;нии."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "toilet00"
 	density = 0
@@ -141,7 +141,7 @@
 
 /obj/machinery/shower
 	name = "shower"
-	desc = "The HS-451. Installed in the 2550s by the Nanotrasen Hygiene Division."
+	desc = "Душ, подключённый к ближайшему водопроводу. На удивление всё ещё не ржавый."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "shower"
 	density = 0
@@ -354,7 +354,7 @@
 
 /obj/item/weapon/bikehorn/rubberducky
 	name = "rubber ducky"
-	desc = "Rubber ducky you're so fine, you make bathtime lots of fuuun. Rubber ducky I'm awfully fooooond of yooooouuuu~"	//thanks doohl
+	desc = "Резиновый утёнок. Кр&#255;."//thanks doohl
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "rubberducky"
 	item_state = "rubberducky"
@@ -365,7 +365,7 @@
 	name = "sink"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "sink"
-	desc = "A sink used for washing one's hands and face."
+	desc = "Обычный умывальник. В нём вы можете помыть своё лицо или вещь."
 	anchored = 1
 	var/busy = 0 	//Something's being washed at the moment
 
