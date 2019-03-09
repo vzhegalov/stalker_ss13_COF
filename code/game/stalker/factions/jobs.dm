@@ -53,7 +53,9 @@
 	belt = /obj/item/weapon/gun/projectile/automatic/pistol/cora
 	id = /obj/item/device/stalker_pda
 	shoes = /obj/item/clothing/shoes/sneakers/brown
-	back = null
+	back = /obj/item/weapon/storage/backpack/stalker
+	backpack_contents = list(/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000)
+	l_pocket = pick = (/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000,/obj/item/stack/spacecash/c5000)
 
 //donat-equip for atelerd
 /datum/job/stalker/atelerd
