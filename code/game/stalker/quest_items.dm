@@ -20,3 +20,9 @@
 	name = "Box"
 	desc = "Закрытый синий &#255;щик. В нем должно быть что-то ценное."
 	eng_desc = "Closed blue blox. Trader may pay a big price for this."
+
+/obj/item/stalker/microsd
+	icon_state = "microSD"
+	name = "microSD"
+	desc = "Маленька&#255; SD карта на 128 Мб."
+	eng_desc = "MicroSD 128 Mb. Trader may pay a big price for this."

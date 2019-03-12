@@ -8,6 +8,7 @@ Assistant
 //	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
+	locked = 1
 	spawn_positions = -1
 	supervisors = "Army Commander"
 	selection_color = "#2E8B57"
@@ -23,7 +24,6 @@ Assistant
 /datum/outfit/job/army_eliteagro
 	name = "EliteAgro"
 	faction_s = "Army"
-
 /datum/outfit/job/army/eliteagro/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/beret_ua
@@ -34,7 +34,8 @@ Assistant
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
 							/obj/item/weapon/reagent_containers/pill/stalker/aptechka/army = 1,
-							/obj/item/clothing/glasses/eyepatch = 1)
+							/obj/item/clothing/glasses/eyepatch = 1,
+							/obj/item/weapon/gun/projectile/automatic/ak74)
 	var/datum/martial_art/plasma_fist/plasma_fist = new(null)
 	plasma_fist.teach(H)
 
